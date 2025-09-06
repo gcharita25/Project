@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Setup Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      width: 400px;
+      border: 3px solid #2575fc;
+    }
+
+    h2 {
+      color: #2575fc;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #6a11cb;
+      padding-bottom: 10px;
+    }
+
+    .option {
+      background: linear-gradient(to right, #2575fc, #6a11cb);
+      color: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .option:hover {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      transform: scale(1.05);
+      box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.4);
+    }
+
+    .back-link {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .back-link a {
+      color: #2575fc;
+      text-decoration: none;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Complete Your Setup</h2>
+
+    <div class="option" onclick="alert('Go to Profile Setup page')">
+      👤 Profile Setup
+    </div>
+
+    <div class="option" onclick="alert('Go to Biometric Setup page')">
+      🔒 Biometric Setup
+    </div>
+
+    <div class="back-link">
+      <a href="login.html">⬅ Back to Login</a>
+    </div>
+  </div>
+
+</body>
+</html>
